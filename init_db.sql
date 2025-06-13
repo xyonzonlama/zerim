@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS asset (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    type VARCHAR(50) NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    location VARCHAR(100) NOT NULL
+);
